@@ -15,6 +15,7 @@ Expectation: Failure
 Copy the contents of the [Privileged Deployment](./deploy-privileged.yaml) and then run the following command in the cluster:
 
 ```bash
+kubectl apply -f ./serviceaccount.yaml
 kubectl apply -f ./deploy-privileged.yaml
 ```
 
